@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+#include<stdlib.h>
+#include<data.h>
+#include<mainmenu.h>
+#include<userlogin.h>
+#include<dashboard.h>
+#include<newuser.h>
+#include<searchuser.h>
+#include<deleteuser.h>
+#include<changepassword.h>
+#include<resetpassword.h>
+#include<itemdashboard.h>
+#include<unblockuser.h>
+void main()
+{
+	clrscr();
+	mainmenu();
+	getch();
+}
